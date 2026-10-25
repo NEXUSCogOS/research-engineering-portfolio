@@ -1,5 +1,7 @@
 # Research Engineering Portfolio
 
+[![tests](https://github.com/NEXUSCogOS/research-engineering-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/NEXUSCogOS/research-engineering-portfolio/actions/workflows/tests.yml)
+
 I am an independent AI systems and research engineer working on reliable evaluation, evidence quality, provenance and controlled experimentation.
 
 ## What this portfolio demonstrates
