@@ -25,9 +25,25 @@ Prepared bounded evaluation studies using predefined questions, conditions, endp
 
 Built internal tools and documentation for provenance tracking, failure analysis, reproducibility and review of AI-assisted engineering workflows.
 
+## Public engineering samples
+
+The `samples/` directory contains small, generic reference implementations created for this portfolio:
+
+- **Integrity manifests** — create and verify SHA-256 manifests for a directory;
+- **Data-quality profiling** — summarize missing and duplicate values in tabular records;
+- **Dependency ordering** — produce a deterministic topological order and reject cyclic graphs.
+
+They use only the Python standard library and include automated tests. They demonstrate general engineering practice without exposing private architectures, datasets or research protocols.
+
+Run the checks with:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
 ## Evidence boundary
 
-This public repository is intentionally a high-level portfolio. It contains no private source code, system architecture, datasets, prompts, credentials, operational configuration, detailed experimental protocols, commercial plans or protected intellectual property.
+This public repository is intentionally a high-level portfolio. Its code consists only of generic reference samples. It contains no private source code, system architecture, datasets, prompts, credentials, operational configuration, detailed experimental protocols, commercial plans or protected intellectual property.
 
 The work described here should be read as evidence of research-engineering practice. It does not claim product readiness, commercial traction, independently replicated performance or superiority over other systems.
 
